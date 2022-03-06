@@ -7,7 +7,7 @@ The prebuilt image is available at DockerHub [staticpages/cli](https://hub.docke
 ## Usage
 
 ```shell
-$ docker run -it --rm -v /path/to/my/sources:/project staticpages/cli --config myconfig.yaml
+$ docker run -it --rm -v /path/to/my/sources:/project staticpages/cli staticpages --config myconfig.yaml
 ```
 
 ## Building the image
