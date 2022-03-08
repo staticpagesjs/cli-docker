@@ -6,7 +6,7 @@ RUN npm install -g \
   rimraf \
   copyfiles \
   @static-pages/core@2.0.2 \
-  @static-pages/cli@0.4.1 \
+  @static-pages/cli@0.5.0 \
   @static-pages/file-reader@1.0.1 \
   @static-pages/markdown-reader@1.0.1 \
   @static-pages/yaml-reader@1.0.0 \
