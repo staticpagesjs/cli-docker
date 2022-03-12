@@ -17,3 +17,7 @@ docker build -t staticpages/cli:%Patch% .
 docker image tag staticpages/cli:%Patch% staticpages/cli:%Minor%
 docker image tag staticpages/cli:%Patch% staticpages/cli:%Major%
 docker image tag staticpages/cli:%Patch% staticpages/cli:latest
+docker push staticpages/cli:%Patch%
+docker push staticpages/cli:%Minor%
+docker push staticpages/cli:%Major%
+docker push staticpages/cli:latest
