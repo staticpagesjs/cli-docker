@@ -11,6 +11,7 @@ RUN npm install -g \
   @static-pages/file-writer@2.2.2 \
   @static-pages/markdown-reader@1.0.2 \
   @static-pages/yaml-reader@1.0.1 \
-  @static-pages/twig-writer@1.0.0
+  @static-pages/twig-writer@1.1.1 \
+  @static-pages/nunjucks-writer@1.0.0
 
 WORKDIR /project
