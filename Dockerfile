@@ -2,6 +2,8 @@ FROM node:16-alpine3.14
 
 ENV NODE_PATH=/usr/local/lib/node_modules
 
+WORKDIR /project
+
 RUN npm install -g \
   rimraf@3 \
   copyfiles@2 \
@@ -13,6 +15,5 @@ RUN npm install -g \
   @static-pages/yaml-reader@1.0.1 \
   @static-pages/twig-writer@1.1.1 \
   @static-pages/nunjucks-writer@1.0.0 \
-  @static-pages/ejs-writer@0.1.0 
-
-WORKDIR /project
+  @static-pages/ejs-writer@0.1.1 \
+  @static-pages/mustache-writer@0.1.0
