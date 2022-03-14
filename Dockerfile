@@ -1,5 +1,6 @@
 FROM node:16-alpine3.14
 
+ENV SHELL=/bin/sh
 ENV NODE_PATH=/usr/local/lib/node_modules
 
 WORKDIR /project
