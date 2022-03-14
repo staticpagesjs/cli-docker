@@ -6,6 +6,7 @@ WORKDIR /project
 
 RUN npm install -g \
   rimraf@3 \
+  chokidar-cli@3 \
   copyfiles@2 \
   @static-pages/core@2.0.2 \
   @static-pages/cli@1.0.0 \
