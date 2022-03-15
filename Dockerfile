@@ -13,7 +13,7 @@ RUN npm install -g \
   copyfiles@2 \
   js-yaml@4 \
   dotenv@16 \
-  @static-pages/core@2.0.2 \
+  @static-pages/core@2.1.0 \
   @static-pages/cli@1.0.0 \
   @static-pages/file-reader@2.0.1 \
   @static-pages/file-writer@2.2.2 \
