@@ -9,7 +9,7 @@ for /F "tokens=1,2,3 delims=." %%a in ("%1") do (
 echo Releasing "%Patch%" version
 pause
 
-git commit -a -m "updated packages"
+git commit -a -m "version %Patch%"
 git push
 git tag %Patch%
 git push --tags

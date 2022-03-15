@@ -15,7 +15,7 @@ RUN npm install -g \
   dotenv@16 \
   @static-pages/core@2.1.0 \
   @static-pages/cli@1.0.0 \
-  @static-pages/file-reader@2.0.1 \
+  @static-pages/file-reader@2.0.2 \
   @static-pages/file-writer@2.2.2 \
   @static-pages/markdown-reader@1.1.1 \
   @static-pages/yaml-reader@1.1.0 \
