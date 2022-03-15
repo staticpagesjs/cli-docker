@@ -5,6 +5,8 @@ ENV NODE_PATH=/usr/local/lib/node_modules
 
 WORKDIR /project
 
+RUN apk update && apk add git
+
 RUN npm install -g \
   rimraf@3 \
   chokidar-cli@3 \
