@@ -8,6 +8,7 @@ WORKDIR /project
 RUN apk update && apk add git
 
 RUN npm install -g \
+  gh-pages@3 \
   rimraf@3 \
   chokidar-cli@3 \
   copyfiles@2 \
