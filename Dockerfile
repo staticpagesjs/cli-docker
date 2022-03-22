@@ -15,6 +15,7 @@ RUN npm install -g \
   js-yaml@4 \
   sass@1 \
   dotenv@16 \
+  js-beautify@1 \
   @static-pages/core@2.1.0 \
   @static-pages/cli@1.0.0 \
   @static-pages/file-reader@2.0.2 \
