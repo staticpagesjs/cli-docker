@@ -17,7 +17,7 @@ RUN npm install -g \
   dotenv@16 \
   js-beautify@1 \
   @static-pages/core@3.0.1 \
-  @static-pages/cli@2.0.0 \
+  @static-pages/cli@3.0.1 \
   @static-pages/file-reader@2.0.2 \
   @static-pages/file-writer@3.0.0 \
   @static-pages/markdown-reader@1.1.1 \
