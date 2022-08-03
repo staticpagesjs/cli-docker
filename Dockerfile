@@ -16,13 +16,13 @@ RUN npm install -g \
   sass@1 \
   dotenv@16 \
   js-beautify@1 \
-  @static-pages/core@3.0.1 \
+  @static-pages/core@3.0.4 \
   @static-pages/cli@3.0.1 \
-  @static-pages/file-reader@2.0.2 \
-  @static-pages/file-writer@3.0.0 \
-  @static-pages/markdown-reader@1.1.1 \
-  @static-pages/yaml-reader@1.1.0 \
-  @static-pages/twig-writer@3.0.1 \
-  @static-pages/nunjucks-writer@3.0.0 \
-  @static-pages/ejs-writer@1.0.0 \
-  @static-pages/mustache-writer@1.0.0
+  @static-pages/file-reader@3.0.0 \
+  @static-pages/file-writer@3.0.1 \
+  @static-pages/markdown-reader@2.0.1 \
+  @static-pages/yaml-reader@2.0.1 \
+  @static-pages/twig-writer@3.0.2 \
+  @static-pages/nunjucks-writer@3.0.1 \
+  @static-pages/ejs-writer@1.0.1 \
+  @static-pages/mustache-writer@1.0.3 \
